@@ -10,7 +10,7 @@ app.use((req, res, next) => {
 
 app.get('/proxy-widget', async (req, res) => {
   try {
-    const widgetUrl = 'https://bht.bet/widgets/bonus_list_boxed/Dg7uoDNctiTw4t5QahsiMftqSBvEdLlB';
+    const widgetUrl = 'https://bht.bet/widgets/panel_bonus_opening_list/Dg7uoDNctiTw4t5QahsiMftqSBvEdLlB';
 
     const response = await axios.get(widgetUrl, {
       headers: {
